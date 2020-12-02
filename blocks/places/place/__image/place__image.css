@@ -1,0 +1,29 @@
+.place__image {
+  width: 100vw;
+  height: 100vw;
+  margin-left: -16px;
+  margin-bottom: 32px;    
+}
+
+@media screen and (min-width: 768px) {
+  .place__image {
+    width: calc(50vw - 44px);
+    height: calc(50vw - 44px);
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__image {
+    width: calc(50vw - 72px);
+    height: calc(50vw - 72px);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__image {
+    width: calc(50vw - 180px);
+    height: calc(50vw - 180px);
+  }
+}
