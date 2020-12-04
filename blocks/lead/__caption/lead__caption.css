@@ -17,3 +17,9 @@
     margin-bottom: 92px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .lead__caption {
+    margin-left: 100px;
+  }
+}
