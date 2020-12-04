@@ -4,6 +4,7 @@
   line-height: 35px;
   margin-top: 50px;
   margin-bottom: 32px;
+  grid-area: title;
 }
 
 .place__title:first-child {
