@@ -3,9 +3,7 @@
   -webkit-font-smoothing: antialiased;
   color: #FFFFFF;
   width: 100%;
-  max-width: 1280px;
-  margin: 0;
-  padding: 16px 16px 24px 16px;
+  padding: 16px 0 24px 0;
   background-color: #2A2C2F;
   background-size: cover;
   box-sizing: border-box;
@@ -14,12 +12,6 @@
 
 @media screen and (min-width: 768px) {
   .page {
-    padding: 28px 24px 24px 24px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .page {
-    padding: 28px 48px 24px 48px;
+    padding: 28px 0 24px;
   }
 }

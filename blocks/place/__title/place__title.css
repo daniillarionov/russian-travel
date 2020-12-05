@@ -5,6 +5,7 @@
   margin-top: 50px;
   margin-bottom: 32px;
   grid-area: title;
+  padding: 0 16px 0 16px;
 }
 
 .place__title:first-child {

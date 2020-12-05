@@ -10,7 +10,7 @@
     "title website"
     "image text";
     grid-column-gap: 28px;
-    padding-bottom: 73px;
+    padding: 0 24px 73px 24px;
   }
 
   .place:last-of-type {
@@ -22,7 +22,7 @@
   .place {
     grid-template-columns: calc(50vw - 64px) auto;
     grid-column-gap: 32px;
-    padding-bottom: 80px;
+    padding:0 48px 80px;
   }
 }
 
@@ -30,5 +30,6 @@
   .place {
     grid-template-columns: calc(640px - 168px) auto;
     grid-column-gap: 40px;
+    padding:0 148px 80px;
   }
 }
